@@ -1,7 +1,7 @@
 # Criar-banco-de-dados
 Banco de dados
 ```mermaid
-graph TD;
+flowchart TD
     A[Código Python] --> B[connect_db()]
     B --> C[create_table()]
     A --> D[add_task('Estudar Python', '2024-07-01')]

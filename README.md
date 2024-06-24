@@ -2,16 +2,17 @@
 Banco de dados
 ```mermaid
 graph TD;
-    A[Código Python] --> B[connect_sqe()]
-    B --> C(Criar Tabela)
-    C --> D[add_task('Estudar Python', '2024-07-01')]
-    C --> E[add_task('Fazer compras', '2024-06-30')]
-    C --> F[add_task('Preparar apresentação', '2024-07-05')]
-    C --> G[get_all_tasks()]
+    A[Código Python] --> B[Conectar ao Banco de Dados]
+    B --> C[Criar Tabela]
+    A --> D[Adicionar Tarefa ('Estudar Python', '2024-07-01')]
+    A --> E[Adicionar Tarefa ('Fazer compras', '2024-06-30')]
+    A --> F[Adicionar Tarefa ('Preparar apresentação', '2024-07-05')]
+    A --> G[Obter Todas as Tarefas]
     G --> H[SELECT * FROM tasks]
-    C --> I[complete_task(1)]
-    I --> J[UPDATE tasks SET status='Completed' WHERE id=1]
-    C --> K[delete_task(2)]
-    K --> L[DELETE FROM tasks WHERE id=2]
+    A --> I[Completar Tarefa (1)]
+    I --> J[Marcar Tarefa 1 como 'Concluída']
+    A --> K[Deletar Tarefa (2)]
+    K --> L[Deletar Tarefa com ID 2]
+]
 
 ```

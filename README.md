@@ -37,5 +37,13 @@ graph TD;
     O --> P[2]
     P --> Q[Deletar tarefa com ID 2]
 
+    %% Estilo para aumentar o tamanho da fonte e dos nós
+    %% A, B, C, D, E, F, G, H, I, J, K, L, M, N, O, P, Q {
+    %%   font-size: 16px;
+    %%   width: 300px;
+    %%   height: 60px;
+    %% }
+
+
 
 ```

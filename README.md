@@ -2,6 +2,24 @@
 Banco de dados
 ```mermaid
 graph TD;
+    style A fill:#f9f,stroke:#333,stroke-width:2px;
+    style B fill:#f9f,stroke:#333,stroke-width:2px;
+    style C fill:#f9f,stroke:#333,stroke-width:2px;
+    style D fill:#f9f,stroke:#333,stroke-width:2px;
+    style E fill:#f9f,stroke:#333,stroke-width:2px;
+    style F fill:#f9f,stroke:#333,stroke-width:2px;
+    style G fill:#f9f,stroke:#333,stroke-width:2px;
+    style H fill:#f9f,stroke:#333,stroke-width:2px;
+    style I fill:#f9f,stroke:#333,stroke-width:2px;
+    style J fill:#f9f,stroke:#333,stroke-width:2px;
+    style K fill:#f9f,stroke:#333,stroke-width:2px;
+    style L fill:#f9f,stroke:#333,stroke-width:2px;
+    style M fill:#f9f,stroke:#333,stroke-width:2px;
+    style N fill:#f9f,stroke:#333,stroke-width:2px;
+    style O fill:#f9f,stroke:#333,stroke-width:2px;
+    style P fill:#f9f,stroke:#333,stroke-width:2px;
+    style Q fill:#f9f,stroke:#333,stroke-width:2px;
+
     A[Código Python] --> B[Conectar ao Banco de Dados]
     B --> C[Criar Tabela]
     A --> D[Adicionar Tarefa]
@@ -18,5 +36,6 @@ graph TD;
     A --> O[Deletar Tarefa]
     O --> P[2]
     P --> Q[Deletar tarefa com ID 2]
+
 
 ```

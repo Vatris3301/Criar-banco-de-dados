@@ -2,7 +2,7 @@
 Banco de dados
 ```mermaid
 graph LR
-    A[Código Python] --> B[connect_db()]
+    A[Código Python] --> B[connect_SQE()]
     B --> C[create_table()]
     A --> D[add_task('Estudar Python', '2024-07-01')]
     A --> E[add_task('Fazer compras', '2024-06-30')]
